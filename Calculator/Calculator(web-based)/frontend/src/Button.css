@@ -1,0 +1,46 @@
+.button {
+    padding: 20px;
+    font-size: 1.2rem;
+    margin: 5px;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.button:hover {
+    background-color: bisque;
+}
+
+.button:active {
+    transform: scale(0.95);
+    background-color: blanchedalmond;
+}
+
+.button.operator {
+    background-color: #4ca7af;
+    color: white;
+}
+
+.clear {
+    background-color: black;
+    color: white;
+    grid-column: span 1;
+}
+
+.button.backspace {
+    background-color: #ff9800;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.button.spacebar {
+    background-color: black;
+    grid-column: span 2;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
